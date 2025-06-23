@@ -10,7 +10,7 @@ Founded by **Chad Kirk**, Parrah Works is rooted in a lived commitment to rebuil
 
 ### ✅ 🔐 Parrah Cipher v1
 A printable personal encryption system designed for offline password safety.  
-→ Beginner-friendly, human-readable, survivor-first.
+→ Beginner-friendly, human-readable, steo by step.
 
 ### 🦜 Parrot/Parrah AI (In Progress)
 A modular, ethical AI framework focused on mimicry, memory, and user-consent.  
