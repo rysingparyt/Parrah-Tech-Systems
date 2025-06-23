@@ -59,7 +59,8 @@ Original: `Identity123`
 
 [📂 `parrah_cipher.py`](./parrah_cipher.py)
 
-```bash
+
+
 # To use:
 python parrah_cipher.py
 
