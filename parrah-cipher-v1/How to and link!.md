@@ -7,7 +7,7 @@ It helps you encode and decode passwords manually or with a simple Python script
 A printable personal encryption system designed for offline password safety.  
 → Beginner-friendly, human-readable, survivor-first.
 
-📌 [How to use the cipher »](./parrah-cipher-v1/README.md#how-to-use)
+📌 [How to use the cipher »](./parrah-cipher-v1/README.md)
 
 ---
 # 🔐 Parrah Cipher v1
