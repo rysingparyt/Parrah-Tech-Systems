@@ -1,7 +1,68 @@
-# Parrah Cipher v1
+# 🔐 Parrah Cipher v1
 
-A printable, offline-safe encryption system for storing and decoding passwords securely.
-This tool is designed for survivors, students, and people rebooting their digital lives.
+**Parrah Cipher v1** is a printable, offline-friendly personal encryption system.  
+It helps you encode and decode passwords manually or with a simple Python script—perfect for survivors, students, or anyone needing a low-tech, high-trust backup.
+
+---
+
+## ✨ What It Does
+
+- Shifts every letter **+7 letters** forward (Caesar cipher style)
+- Swaps certain characters using a custom table
+- Adds a prefix and suffix for visual security
+- Leaves numbers untouched (you can scramble if you want)
+- Easy to decode by hand or script
+
+---
+
+## 🔧 How to Use It
+
+### ▶️ Encrypt a Password (Manual Steps)
+
+1. **Shift each letter +7** in the alphabet  
+   Example: `I → P`, `E → L`, `T → A`
+
+2. **Swap characters using this table:**
+
+| Original | Replace With |
+|----------|--------------|
+| A        | `@`          |
+| E        | `3`          |
+| I        | `!`          |
+| O        | `0`          |
+| S        | `$`          |
+| T        | `+`          |
+
+3. **Add prefix and suffix:**  
+   - Prefix: `XZ-`  
+   - Suffix: `-P7`
+
+🔒 **Example:**
+Original: `Identity123`  
+→ Shifted: `PKLUAPAF123`  
+→ Swapped: `PKLU@P@F123`  
+→ Final Encrypted: `XZ-PKLU@P@F123-P7`
+
+---
+
+### 🧠 Decryption Instructions
+
+1. Remove `XZ-` and `-P7`  
+2. Reverse the character swaps (`@ → A`, etc.)  
+3. Shift each letter **backward by 7**
+
+---
+
+## 🐍 Python Script Version
+
+> Want to automate the cipher? Use this simple Python script:
+
+[📂 `parrah_cipher.py`](./parrah_cipher.py)
+
+```bash
+# To use:
+python parrah_cipher.py
+
 
 What is Parrah Cipher v1?
 A lightweight personal encryption system designed for:
