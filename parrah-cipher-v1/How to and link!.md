@@ -68,7 +68,8 @@ Original: `Identity123`
 
 Use this Python script:
 
-🔗 [`parrah_cipher.py`](./parrah_cipher.py)
+🔗 [`parrah_cipher.py`](https://github.com/rysingparyt/Parrah-Tech-Systems/edit/main/parrah-cipher-v1/README.md)
+
 
 
 python parrah_cipher.py
