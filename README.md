@@ -8,7 +8,7 @@ Founded by **Chad Kirk**, Parrah Works is rooted in a lived commitment to rebuil
 
 ## 🛠️ Current Projects
 
-### 🔐 Parrah Cipher v1
+### ✅ 🔐 Parrah Cipher v1
 A printable personal encryption system designed for offline password safety.  
 → Beginner-friendly, human-readable, survivor-first.
 
