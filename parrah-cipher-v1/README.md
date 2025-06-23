@@ -10,6 +10,108 @@ A printable personal encryption system designed for offline password safety.
 📌 [How to use the cipher »](./parrah-cipher-v1/README.md#how-to-use)
 
 ---
+# 🔐 Parrah Cipher v1
+
+**Parrah Cipher v1** is a printable, offline-friendly personal encryption system.  
+It helps you encode and decode passwords manually or with a simple Python script—perfect for survivors, students, or anyone needing a low-tech, high-trust backup.
+
+---
+
+## ✨ What It Does
+
+- Shifts every letter **+7 letters** forward (Caesar cipher style)
+- Swaps certain characters using a custom table
+- Adds a prefix and suffix for visual security
+- Leaves numbers untouched (optional number scrambling)
+- Easy to decode by hand or script
+
+---
+
+## 🔧 How to Use It
+
+### ▶️ Encrypt a Password (Manual Steps)
+
+1. **Shift each letter +7** in the alphabet  
+   Example: `I → P`, `E → L`, `T → A`
+
+2. **Swap characters using this table:**
+
+| Original | Replace With |
+|----------|--------------|
+| A        | `@`          |
+| E        | `3`          |
+| I        | `!`          |
+| O        | `0`          |
+| S        | `$`          |
+| T        | `+`          |
+
+3. **Add prefix and suffix:**  
+   - Prefix: `XZ-`  
+   - Suffix: `-P7`
+
+🔒 **Example:**
+Original: `Identity123`  
+→ Shifted: `PKLUAPAF123`  
+→ Swapped: `PKLU@P@F123`  
+→ Final Encrypted: `XZ-PKLU@P@F123-P7`
+
+---
+
+### 🧠 Decryption Instructions
+
+1. Remove `XZ-` and `-P7`  
+2. Reverse the character swaps (`@ → A`, etc.)  
+3. Shift each letter **backward by 7**
+
+---
+
+## 🐍 Want to Automate It?
+
+Use this Python script:
+
+🔗 [`parrah_cipher.py`](./parrah_cipher.py)
+
+
+python parrah_cipher.py
+
+🔹 Method 1: Basic Search
+Press Windows Key 🔍
+
+Type: cmd
+
+Hit Enter 🠖 Command Prompt will open
+
+🔹 Method 2: Run Dialog
+Press Windows + R
+
+Type: cmd
+
+Press Enter
+
+🔹 Method 3: From Start Menu
+Click Start Menu
+
+Scroll to Windows System
+
+Click Command Prompt
+
+🌐 Try Command Prompt Online (No Install)
+Here’s an online command-line simulator you can use directly in your browser:
+
+👉 TryCMD (Copy.sh)
+
+This mimics an old-school Windows DOS prompt—great for learning basics like dir, cd, cls, echo, etc.
+
+⚡ Example Commands to Try:
+echo Hello, world! → prints a message
+
+dir → lists files/folders
+
+cls → clears the screen
+
+cd .. → go up one folder level
+
+help → shows a list of built-in commands
 
 ## ✨ What It Does
 
